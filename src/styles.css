@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+  color: #555;
+  font-weight: 500;
+  line-height: 1;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
