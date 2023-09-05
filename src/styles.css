@@ -1,9 +1,25 @@
-body {
-  font-family: sans-serif;
-  color: #555;
-  font-weight: 500;
-  line-height: 1;
-}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  color: #555;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* 
+Deep Blue: #0048BA
+Tint :#e6edf8
+Shades
+Accents
+Greys
+
+shadows
+
+
+*/
