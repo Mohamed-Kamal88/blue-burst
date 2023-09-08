@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['josefin-sans', 'sans-serif'],
+        sans: ['Inter','josefin-sans', 'sans-serif'],
         alata: ['Alata']
       }
     },

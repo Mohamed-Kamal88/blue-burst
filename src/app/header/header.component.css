@@ -1,8 +1,0 @@
-#header {
-  background-image: url("../../assets/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-media(max-widht:576px) {
-  background-position: center;
-}
