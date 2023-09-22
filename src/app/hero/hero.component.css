@@ -1,65 +1,68 @@
-.section-hero{
-    background-color: #ccdaf1;
-    padding:9.6rem 0;
+.section-hero {
+  background-color: #ccdaf1;
+  padding: 4.8rem 0 9.6rem 0;
 }
 .hero {
-    max-width:130rem;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap:9.6rem;
+  max-width: 130rem;
+  display: grid;
+  margin: 0 auto; /*To center horizontally */
+  padding: 0 3.2rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
 }
 
 .heading-primary {
-    font-size: 5.2rem;
-    font-weight: 700;
-    line-height:1.05;
-    letter-spacing: -0.5px;
-    margin-bottom: 3.2rem ;
-    color:#333;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+  color: #0048ba;
 }
 .hero-dercription {
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.6;
-    margin-bottom: 4.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
 
-.btn:link, .btn:visited {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 500;
-    padding:1.6rem 3.2rem;
-    border-radius: 1rem;
-    /* All transitions should be on the original state */
-    transition: background-color 0.3s
-    
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+  /* All transitions should be on the original state */
+  transition: background-color 0.3s;
 }
-.btn--CTA:link, .btn--CTA:visited {
-    background-color: #0048BA;
-    color:#fff;
-
+.btn--CTA:link,
+.btn--CTA:visited {
+  background-color: #1a5ac1;
+  color: #fff;
 }
 
-.btn--CTA:hover, .btn--CTA:active {
-    background-color: #0041a7;
-    
-
+.btn--CTA:hover,
+.btn--CTA:active {
+  background-color: #0048ba;
+  text-decoration: underline;
 }
-.btn--outline:link, .btn--outline:visited {
-    background-color: #fff;
-    color:#555;
-
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
 }
-.btn--outline:hover, .btn--outline:active {
-    background-color: #e6edf8;
-    
-    /* To add border Inside */
-    box-shadow: inset 0 0 0 3px  #fff;
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #1a5ac1;
+  color: #fff;
+  text-decoration: underline;
 
+  /* To add border Inside */
+  box-shadow: inset 0 0 0 3px #fff;
 }
 .hero-img {
-    width: 100%;
+  width: 100%;
 }
