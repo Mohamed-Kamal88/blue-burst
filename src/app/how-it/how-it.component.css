@@ -2,12 +2,9 @@
   padding: 9.6rem 0;
 }
 
-/* Container "Element is used to center our content"*/
-.container {
-  max-width: 120rem;
-  padding: 0, 3.2rem;
-  margin: 0 auto;
-}
+
+
+
 /*  */
 /* Grid System */
 .grid {
