@@ -20,6 +20,42 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-ver-center {
+  align-items: center;
+}
+.heading-secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+.sub-heading {
+  display: block;
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #0048ba;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.6rem;
+}
+
 /* 
 Deep Blue: #0048BA
 Tint :#e6edf8

@@ -1,30 +1,38 @@
 .section-hero {
-  background-color: #ccdaf1;
+  background-color: #b3c8ea;
   padding: 4.8rem 0 9.6rem 0;
 }
 .hero {
-  max-width: 130rem;
+  max-width: 160rem;
   display: grid;
   margin: 0 auto; /*To center horizontally */
   padding: 0 3.2rem;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 9.6rem;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .heading-primary {
+  width: 100%;
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
+  margin-bottom: 4.8rem;
+
   color: #0048ba;
+}
+.hero-text-box {
+  margin-bottom: 24rem;
 }
 .hero-dercription {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+  /* padding-left: 2rem; */
+  /* margin-top: 4.8rem; */
 }
 
 .btn:link,
@@ -63,6 +71,23 @@
   /* To add border Inside */
   box-shadow: inset 0 0 0 3px #fff;
 }
+
 .hero-img {
   width: 100%;
+  margin-bottom: 3.2rem;
+}
+.happy-customers {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.happy-text p {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-top: 1.8rem;
+  white-space: nowrap;
+  overflow: hidden;
 }

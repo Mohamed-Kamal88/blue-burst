@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 import { HowItComponent } from './how-it/how-it.component';
 import { FeaturedComponent } from './featured/featured.component';
+import { AppFeaturesComponent } from './app-features/app-features.component';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -14,13 +16,11 @@ import { FeaturedComponent } from './featured/featured.component';
     HeaderComponent,
     HeroComponent,
     HowItComponent,
-    FeaturedComponent
+    FeaturedComponent,
+    AppFeaturesComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, IonicModule.forRoot({})],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
